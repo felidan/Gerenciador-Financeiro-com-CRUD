@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Gerenciador Financeiro</string>
+    <string name="saudacoes">Bem vindo ao Gerenciador Financeiro!</string>
+    <string name="entrar">Entrar</string>
+    <string name="registrar">Registrar</string>
+    <string name="lembrar_senha">Lembrar senha</string>
+    <string name="senha">senha</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="nome">nome</string>
+    <string name="confirmar_senha">confirmar senha</string>
+    <string name="sobrenome">sobrenome</string>
+
+    <string-array name="tp_receita">
+        <item>Salário</item>
+        <item>Presente</item>
+        <item>Carteira</item>
+        <item>Prêmio</item>
+        <item>Investimentos</item>
+        <item>Outros</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="adicionar_receita">Adicionar Receita</string>
+    <string name="adicionar_despesa">adicionar despesa</string>
+    <string name="adicionar_categoria">adicionar categoria</string>
+    <string name="categoria">categoria</string>
+    <string name="despesa">despesa</string>
+    <string name="receita">receita</string>
+    <string name="register">Registrar</string>
+    <string name="enter">Entrar</string>
+    <string name="receitas">Receitas</string>
+    <string name="metas">metas</string>
+    <string name="categorias">categorias</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="cadastrar">CADASTRAR</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Adicionar Categoria"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome da categoria:"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/editDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+
+    <CheckBox
+        android:id="@+id/checkReceita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receita" />
+
+    <CheckBox
+        android:id="@+id/checkDespesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Despesa" />
+
+    <Button
+        android:id="@+id/btnAddCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/main_buttons_accent"
+        android:text="Adicionar"
+        android:textColor="@color/colorPrimary" />
+
+</LinearLayout>

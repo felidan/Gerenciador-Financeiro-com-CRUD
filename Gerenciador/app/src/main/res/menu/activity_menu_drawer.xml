@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemResumo"
+            android:icon="@drawable/ic_menu_principal"
+            android:title="Resumo" />
+        <item
+            android:id="@+id/itemReceita"
+            android:icon="@drawable/ic_menu_receitas"
+            android:title="Receitas" />
+        <item
+            android:id="@+id/itemDespesa"
+            android:icon="@drawable/ic_menu_despesas"
+            android:title="Despesas" />
+        <item
+            android:id="@+id/itemCategoria"
+            android:icon="@drawable/ic_menu_categoria"
+            android:title="Categorias" />
+
+    </group>
+
+    <item android:title="Outros">
+        <menu>
+            <item
+                android:id="@+id/itemSair"
+                android:icon="@drawable/ic_menu_sair"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>

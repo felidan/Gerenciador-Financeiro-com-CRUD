@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="com.example.felipedantas.gerenciador.UserInterface.UI.activity.RegisterActivity">
+
+    <TextView
+        android:id="@+id/txtCadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/cadastro"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCadastro"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="@string/nome"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimary" />
+
+
+        <EditText
+            android:id="@+id/editLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sobrenome"
+            android:inputType="text"
+            android:padding="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/editCnfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/confirmar_senha"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textColorHint="@color/colorPrimary" />
+
+        <CheckBox
+            android:id="@+id/checkRememberPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="lembrar senha" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="155dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/main_buttons_cancel"
+                android:padding="8dp"
+                android:layout_alignParentLeft="true"
+                android:text="@string/cancelar"
+                android:textColor="@color/colorTextWhite" />
+
+            <Button
+                android:id="@+id/btnCadastrar"
+                android:layout_width="155dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/main_buttons"
+                android:padding="8dp"
+                android:text="@string/cadastrar"
+                android:textColor="@color/colorTextWhite" />
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <!--
+        <TextView
+            android:id="@+id/txtCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="@string/cadastro" />
+
+        <LinearLayout
+            android:layout_below="@+id/txtCadastro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/nome"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"
+                android:inputType="text"
+                android:layout_marginTop="10dp"/>
+
+
+            <EditText
+                android:id="@+id/editLastName"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/sobrenome"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"
+                android:inputType="text"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/editPassword"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/senha"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/editCnfirmPassword"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/confirmar_senha"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimaryDark"
+                android:padding="20dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="10dp"/>
+
+                <Button
+                    android:id="@+id/btnCadastrar"
+                    android:layout_width="320dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/main_buttons"
+                    android:padding="8dp"
+                    android:text="@string/entrar"
+                    android:textColor="@color/colorTextWhite" />
+
+
+        </LinearLayout>
+    -->
+</RelativeLayout>

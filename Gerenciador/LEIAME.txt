@@ -1,0 +1,24 @@
+Mapa de telas:
+
+-Main
+   -Registrar
+   -Login
+      -Principal
+      -Lista Receitas
+         -Add Receita
+      -Lisa Despesas
+         -Add Despesa
+      -Add Categoria
+      -Lista Metas
+         -Add Metas
+
+      -Sair
+
+Conceitos Utilizados:
+   - conceito de organização de classes ViewHolder;
+   - conceito de SharedPreferences (Tabela Hash nativa do android);
+   - classe de Constantes;
+   - utilização de Navigation Drawer (Menu lateral);
+   - utilização de frame container para troca te layouts dinamicamente (em tempo de execução);
+   - Banco de dados local com SQLite;
+   - utilização de fragments para a troca dinâmica de layout
